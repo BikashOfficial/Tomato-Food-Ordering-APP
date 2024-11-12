@@ -16,4 +16,4 @@ export const assets ={
     remove_icon_red
 }
 
-export const url = 'http://localhost:4000'
+export const url = 'https://tomato-s9wj.onrender.com'
