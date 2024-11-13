@@ -33,9 +33,9 @@ function MyOrders() {
                 <p>{order.items.map((item, idx) => {
 
                   if (idx === order.items.length - 1) {
-                    return item.name + " x " + item.qunatity
+                    return item.name + " x " + item.quantity
                   } else {
-                    return item.name + " x " + item.qunatity + ", "
+                    return item.name + " x " + item.quantity + ", "
                   }
 
                 })}</p>
